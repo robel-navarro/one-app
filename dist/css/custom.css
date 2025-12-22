@@ -1,0 +1,18 @@
+.vertical-text.breaktime {
+  background-color: hwb(54 51% 7% / 0.593); /* Yellow for BREAKTIME */
+  color: #000;
+}
+
+.vertical-text.noproduction {
+  background-color: hwb(4 43% 13% / 0.466); /* Red for NO PRODUCTION */
+  color: #000;
+}
+
+.current-hour-cell {
+  background-color: hwb(174 54% 8%) !important; /* light blue */
+}
+
+.current-hour-header {
+  background-color: #90caf9 !important; /* stronger blue for header */
+  font-weight: bold;
+}
