@@ -170,21 +170,21 @@ $_SESSION['DIRECTORY'] = __DIR__;
                 <li class="nav-item">
                   <a href="#" class="nav-link menu_list" data-url="pn_rev/view/pn_rev.php">
                     <i class="nav-icon far fa-circle text-success"></i>
-                    <p>Revision</p>
+                    <p>PN Revision</p>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a href="#" class="nav-link menu_list" data-url="inspection_record/view/analysis/analysis_form.php">
+                  <a href="#" class="nav-link menu_list" data-url="pid/view/pid.php">
                     <i class="nav-icon far fa-circle text-success"></i>
                     <!-- <i class="fas fa-tasks"></i> -->
-                    <p>For Analysis</p>
+                    <p>Product ID</p>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a href="#" class="nav-link menu_list" data-url="inspection_record/view/hourly/hourly_inspection_record.php">
+                  <a href="#" class="nav-link menu_list" data-url="pv_kv/view/pv_kv.php">
                     <i class="nav-icon far fa-circle text-success"></i>
                     <!-- <i class="fas fa-tasks"></i> -->
-                    <p>Hourly Record</p>
+                    <p>PV/KV Label</p>
                   </a>
                 </li>
               </ul>
