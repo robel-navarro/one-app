@@ -59,7 +59,7 @@ $_SESSION['DIRECTORY'] = __DIR__;
       <ul class="navbar-nav ml-auto">
         <li class="nav-item dropdown">
           <a class="nav-link" data-toggle="dropdown" href="#" aria-expanded="false">
-            <i class="fas fa-user"></i> <?php echo $_SESSION['fullname'] ?>
+            <i class="fas fa-user"></i> <?php echo $_SESSION['fullname'] == null ? '' : $_SESSION['fullname'] . ' (Logout?)'; ?>
 
           </a>
           <div class="dropdown-menu dropdown-menu-sm dropdown-menu-right" style="left: inherit; right: 0px;">
